@@ -25,8 +25,6 @@ export const Name = styled.span`
   text-align: left;
   font-size: 22px;
   color: var(--primary);
-  text-shadow: var(--main-shadow);
-
   flex-basis: 33.333%;
 `;
 
@@ -36,7 +34,6 @@ export const Number = styled.span`
   font-weight: 500;
   font-size: 22px;
   color: var(--accent);
-  text-shadow: var(--main-shadow);
   flex-basis: 33.333%;
 `;
 

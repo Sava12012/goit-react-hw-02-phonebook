@@ -16,7 +16,6 @@ export const Label = styled.label`
   font-weight: 500;
   font-size: 24px;
   color: var(--secondary);
-  text-shadow: var(--main-shadow);
 `;
 
 export const Input = styled.input`
@@ -30,4 +29,11 @@ export const Input = styled.input`
   border: none;
   border-radius: 5px;
   box-shadow: var(--inset-shadow);
+    :hover {
+    outline: 2px solid var(--accent);
+  }
+  :focus {
+    outline: 2px solid var(--accent);
+  }
+  }
 `;

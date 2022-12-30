@@ -30,14 +30,12 @@ img {
 }
 
 :root {
-  --accent: #6a9bd8;
+  --accent: rgb(2, 112, 99);
   --primary: #282828;
   --secondary: #858585;
-  --bg: #ebf5fc;
-  --main-shadow: -2px -2px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.1);
+  --box: rgba(128, 203, 196, 0.6);
+  --box-statistics: rgba(131, 176, 171, 0.6);
+  --main-shadow: -2px -2px 5px #929292, 3px 3px 5px rgba(0, 0, 0, 0.1);
   --inset-shadow: inset -2px -2px 5px #ffffff,
     inset 3px 3px 5px rgba(0, 0, 0, 0.1);
-  --good: rgba(96, 205, 74, 0.7);
-  --neutral: rgba(205, 185, 74, 0.7);
-  --bad: rgba(205, 87, 74, 0.7);
 }

@@ -23,7 +23,6 @@ export const Label = styled.label`
   font-weight: 500;
   font-size: 24px;
   color: var(--secondary);
-  text-shadow: var(--main-shadow);
 `;
 
 export const Input = styled(Field)`
@@ -37,10 +36,17 @@ export const Input = styled(Field)`
   border: none;
   border-radius: 5px;
   box-shadow: var(--inset-shadow);
+
+  :hover {
+    outline: 2px solid var(--accent);
+  }
+  :focus {
+    outline: 2px solid var(--accent);
+  }
 `;
 
 export const ErrorMsg = styled(ErrorMessage)`
-  margin-top: 7px;
+  margin-top: 6px;
   color: red;
 `;
 
@@ -55,11 +61,8 @@ export const Btn = styled.button`
   border-radius: 5px;
   border: 1px solid var(--accent);
   box-shadow: var(--main-shadow);
-
   cursor: pointer;
-
   transition: all 250ms ease-in-out;
-
   :hover {
     color: var(--bg);
     background-color: var(--accent);
